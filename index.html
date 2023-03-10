@@ -1,23 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fase 2</title>
+
+    <style>
+        body{
+            text-align: center;
+        }
+        header{
+            background-color: aquamarine;
+        }
+    </style>
 </head>
+
 <body>
-  <h1>Bienvenido a mi sitio web</h1>
-    <h2>Proyecto de sitio Web año 2023 - periodo</h2>
+    <header>
+        <h1>Flex Box</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#Inicio"> Inicio </a></li>
+                <li><a href="#QueesFlexbox"> ¿Que es Flexbox ? </a></li>
+                <li><a href="#Mockup"> mockup </a></li>
+                <li><a href="#Acercade"> Acerca de </a></li>
+            </ul>
+    
+        </nav>
+    </header>
+    
+    <a name="Inicio"></a>
+    <section>
+        <h2>Flexbox</h2>
+        <p>
+            Flexbox tiene como meta ser una forma más eficiente de crear diseños, alinear y distribuir espacios entre
+            ítems en un contenedor, incluso cuando las dimensiones de esos ítems son desconocidas y/o dinámicas (en
+            virtud de eso el término "flex").
+        </p>
+        <img src="imagenes/fb.png" alt="Imagen Flexbox">
+    </section>
+
+    <!-- Sección del tema seleccionado -->
     <hr>
-    <h3>Nombre: Jose Yohon Jairo Leon Mavisoy</h3>
-    <h3>Programa: Ingeniería de Sistemas</h3>
-    <h3>Fecha de creación: 17 de febrero del 2023</h3>
+
+    <a name="QueesFlexbox"></a>
+    <section>
+        <h2>Qué es el Flexbox</h2>
+        <h3>Flexbox</h3>
+        <p>
+            Durante mucho tiempo, las únicas herramientas disponibles para crear diseños CSS y posicionar elementos con
+            buena compatibilidad entre browsers eran float y position. Sin embargo, estas herramientas tienen algunas
+            limitaciones muy frustrantes, especialmente cuando se trata de responsividad. Algunas tareas que
+            consideramos básicas en un diseño, como centrar verticalmente un elemento secundario en relación con un
+            elemento principal o hacer que los elementos secundarios ocupen la misma cantidad de espacio, o que las
+            columnas tengan el mismo tamaño independientemente de la cantidad de contenido interno, fueron imposibles. o
+            muy difícil de manejar con floats o position, al menos de forma práctica y flexible. La herramienta Flexbox
+            (de Flexible Box) fue creada para hacer estas tareas más sencillas y funcionales: los secundarios de un
+            elemento con Flexbox se pueden posicionar en cualquier dirección y pueden tener dimensiones flexibles para
+            adaptarse.
+        </p>
+
+        <h3>Elementos</h3>
+
+        <p>
+            Flexbox es un módulo completo y no una propiedad única; algunos de ellos deben declararse en el contenedor
+            (el elemento principal, que llamamos de flex container), mientras que otros deben declararse en los
+            elementos secundarios (el flex ítems). Si el diseño "estándar" se basa en las direcciones block e inline, el
+            diseño Flex se basa en direcciones de "flex flow". A continuación se muestra un diagrama de la
+            especificación, que explica la idea central detrás del diseño Flex.
+        </p>
+    </section>
+
+<!-- Sección de Mockup -->
     <hr>
-    <p>Mis datos de contacto son: <br>
-        Telefono: 3164050873 <br>
-        email: Jhonbalistic12@gmail.com <br>
-    </p>
+<a name="Mockup"></a>
+    <section>
+        <h3> Mockup de la página </h3>
+        <img src="imagenes/mockup.drawio.png" alt="">
+    </section>
+
+<!-- Sección de acerca de -->
+    <hr>
+<a name="Acercade"></a>
+    <section>
+        <h3> Acerca de </h3>
+        <h5>Nombre: Jose Yohon Jairo Leon Mavisoy</h5>
+        <h5>Correo: jhonbalistic12@gmail.com </h5>
+        <h5> Celular: 3164050873 </h5>
+    </section>
+
+<!-- Sección pie de página -->
+    <hr>
+
+    <footer>
+        <p> Esta página fue desarrollada por Jose Yohon Jairo Leon Mavisoy </p>
+        <p> Fecha de actualización: 09 de Marzo del 2023 </p>
+        <p> Versión: 2 </p>
+    </footer>
 
 </body>
+
 </html>
